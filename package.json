@@ -36,4 +36,7 @@
     "rxjs": "^7.2.0",
     "whatsapp-web.js": "^1.21.0"
   },
-  "devDependenc
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/testi
