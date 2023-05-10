@@ -43,4 +43,6 @@
     "@types/express": "^4.17.13",
     "@types/jest": "29.2.4",
     "@types/node": "18.11.18",
-    "@typ
+    "@types/qrcode": "^1.5.0",
+    "@types/qrcode-terminal": "^0.12.0",
+    "@types/supertest": "
