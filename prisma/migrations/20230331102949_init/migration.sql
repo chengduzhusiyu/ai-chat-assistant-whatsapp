@@ -12,4 +12,7 @@ CREATE TABLE "customers" (
 );
 
 -- CreateTable
-CREATE TABLE "Mess
+CREATE TABLE "Message" (
+    "id" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+   
