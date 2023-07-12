@@ -15,4 +15,6 @@ CREATE TABLE "customers" (
 CREATE TABLE "Message" (
     "id" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-   
+    "role" "Role" NOT NULL DEFAULT 'user',
+    "content" TEXT,
+    "ownerId" TEXT NOT N
