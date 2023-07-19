@@ -23,4 +23,7 @@ CREATE TABLE "Message" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "customers_user_key" ON "c
+CREATE UNIQUE INDEX "customers_user_key" ON "customers"("user");
+
+-- AddForeignKey
+ALTER TABLE "Message" ADD CONSTRAINT "Message_ownerId_fkey" FOREIGN 
