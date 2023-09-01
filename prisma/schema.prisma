@@ -16,4 +16,11 @@ model Customer {
   id String @default(uuid()) @id
   createdAt  DateTime   @default(now())
   updatedAt DateTime @updatedAt
-  user Stri
+  user String @unique
+  messages Message[]
+  
+  @@map("customers")
+}
+
+model Message {
+  id String @default
