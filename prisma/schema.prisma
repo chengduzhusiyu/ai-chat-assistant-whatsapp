@@ -12,4 +12,8 @@ datasource db {
 
 
 
-mod
+model Customer {
+  id String @default(uuid()) @id
+  createdAt  DateTime   @default(now())
+  updatedAt DateTime @updatedAt
+  user Stri
