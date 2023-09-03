@@ -23,4 +23,7 @@ model Customer {
 }
 
 model Message {
-  id String @default
+  id String @default(uuid()) @id
+  createdAt  DateTime   @default(now())
+  role Role @default(user)
+  content String
