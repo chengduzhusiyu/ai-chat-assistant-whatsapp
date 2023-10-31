@@ -9,4 +9,6 @@ import { MessageModule } from './message/message.module';
       isGlobal: true,
     }),
     MessageModule,
-  
+  ],
+})
+export class AppModule {}
