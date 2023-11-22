@@ -10,4 +10,9 @@ export class CustomerService {
       where: {
         user: id,
       },
-      in
+      include: {
+        messages: {
+          select: {
+            role: true,
+            content: true,
+    
