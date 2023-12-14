@@ -22,4 +22,9 @@ export class CustomerService {
   }
 
   async createCustomer(data: Prisma.CustomerCreateInput) {
-    return 
+    return await this.prisma.customer.create({
+      data,
+    });
+  }
+
+  async saveMessage(data: Prisma.MessageCreate
