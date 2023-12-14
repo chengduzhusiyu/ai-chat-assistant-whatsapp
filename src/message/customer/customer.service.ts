@@ -15,4 +15,11 @@ export class CustomerService {
           select: {
             role: true,
             content: true,
-    
+          },
+        },
+      },
+    });
+  }
+
+  async createCustomer(data: Prisma.CustomerCreateInput) {
+    return 
