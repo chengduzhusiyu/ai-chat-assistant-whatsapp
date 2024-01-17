@@ -37,4 +37,10 @@ export class CustomerService {
     const customer = await this.findCustomer(user);
     if (!customer) return;
     try {
-      return awai
+      return await this.prisma.customer.delete({
+        where: {
+          user,
+        },
+      });
+    } catch (e) {
+      console.l
