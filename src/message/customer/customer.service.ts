@@ -34,4 +34,7 @@ export class CustomerService {
   }
 
   async clearHistory(user: string) {
-  
+    const customer = await this.findCustomer(user);
+    if (!customer) return;
+    try {
+      return awai
