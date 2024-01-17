@@ -27,4 +27,11 @@ export class CustomerService {
     });
   }
 
-  async saveMessage(data: Prisma.MessageCreate
+  async saveMessage(data: Prisma.MessageCreateInput) {
+    return await this.prisma.message.create({
+      data,
+    });
+  }
+
+  async clearHistory(user: string) {
+  
