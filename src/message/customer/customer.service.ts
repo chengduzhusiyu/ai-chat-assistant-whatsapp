@@ -43,4 +43,10 @@ export class CustomerService {
         },
       });
     } catch (e) {
-      console.l
+      console.log(e);
+    }
+  }
+
+  async getMessagesContext(user: string) {
+    try {
+      const customer = a
