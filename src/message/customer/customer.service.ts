@@ -49,4 +49,7 @@ export class CustomerService {
 
   async getMessagesContext(user: string) {
     try {
-      const customer = a
+      const customer = await this.findCustomer(user);
+      const messages = customer.messages;
+
+      const co
