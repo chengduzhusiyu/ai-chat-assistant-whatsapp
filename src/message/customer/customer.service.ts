@@ -52,4 +52,8 @@ export class CustomerService {
       const customer = await this.findCustomer(user);
       const messages = customer.messages;
 
-      const co
+      const context = [];
+      messages.forEach((message) => {
+        context.push(message);
+      });
+      re
