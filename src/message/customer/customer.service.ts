@@ -56,4 +56,9 @@ export class CustomerService {
       messages.forEach((message) => {
         context.push(message);
       });
-      re
+      return context;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+}
