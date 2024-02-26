@@ -1,2 +1,8 @@
 import { IsString } from 'class-validator';
-export 
+export class IncomingMessageDto {
+  @IsString()
+  readonly body: string;
+
+  @IsString()
+  readonly from: string;
+}
