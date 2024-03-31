@@ -4,4 +4,5 @@ function getHelpMessage(): string {
     
     💬 Conversação: Você pode conversar comigo e me perguntar qualquer coisa. Basta me enviar uma mensagem!
         
-    🎨 Ger
+    🎨 Geração de imagens: Você também pode gerar imagens incríveis usando o comando /imagine e fornecendo um prompt.
+
