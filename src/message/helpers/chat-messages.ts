@@ -6,3 +6,6 @@ function getHelpMessage(): string {
         
     🎨 Geração de imagens: Você também pode gerar imagens incríveis usando o comando /imagine e fornecendo um prompt.
 
+    👨‍🔧 Precisa de suporte tecnico com o bot? Utilize o /suporte
+    
+    🗑 Limpeza de histórico: Se quiser lim
