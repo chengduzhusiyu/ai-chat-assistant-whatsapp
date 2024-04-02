@@ -8,4 +8,6 @@ function getHelpMessage(): string {
 
     👨‍🔧 Precisa de suporte tecnico com o bot? Utilize o /suporte
     
-    🗑 Limpeza de histórico: Se quiser lim
+    🗑 Limpeza de histórico: Se quiser limpar o histórico de mensagens, é só usar o comando /clear
+    
+    👀 Quer ficar de olho em 
