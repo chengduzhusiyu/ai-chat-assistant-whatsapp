@@ -10,4 +10,6 @@ function getHelpMessage(): string {
     
     🗑 Limpeza de histórico: Se quiser limpar o histórico de mensagens, é só usar o comando /clear
     
-    👀 Quer ficar de olho em 
+    👀 Quer ficar de olho em novas funcionalidades? é só enviar um /features
+        
+    👋 Se precisar de ajuda em algum momento, 
