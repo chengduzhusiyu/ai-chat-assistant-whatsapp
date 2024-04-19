@@ -21,4 +21,4 @@ function getDonationMessage(): string {
   
     🎉 Nós estamos construindo isso agora! Mas para continuar precisamos de sua ajuda.
       
-    👉 Cada doação é importante e ajuda a manter e aprimorar o 
+    👉 Cada doação é importante e ajuda a manter e aprimorar o projeto. Use a chave PIX abaixo para fazer uma doação agora mesmo e faça parte da nossa missão de tornar IA's acessí
