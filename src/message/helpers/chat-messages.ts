@@ -17,4 +17,6 @@ function getHelpMessage(): string {
 
 function getDonationMessage(): string {
   return `
-    🙌 Olá! Você ama a ideia de IA WhatsA
+    🙌 Olá! Você ama a ideia de IA WhatsApp que pode ajudar no dia a dia? 🤖
+  
+    🎉 Nós estamos construindo isso agora! Mas para co
