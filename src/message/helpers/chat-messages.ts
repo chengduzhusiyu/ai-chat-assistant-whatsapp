@@ -12,4 +12,9 @@ function getHelpMessage(): string {
     
     👀 Quer ficar de olho em novas funcionalidades? é só enviar um /features
         
-    👋 Se precisar de ajuda em algum momento, 
+    👋 Se precisar de ajuda em algum momento, é só chamar! Estou aqui para ajudá-lo.`;
+}
+
+function getDonationMessage(): string {
+  return `
+    🙌 Olá! Você ama a ideia de IA WhatsA
