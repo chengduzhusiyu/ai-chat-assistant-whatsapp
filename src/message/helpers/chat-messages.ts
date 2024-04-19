@@ -19,4 +19,6 @@ function getDonationMessage(): string {
   return `
     🙌 Olá! Você ama a ideia de IA WhatsApp que pode ajudar no dia a dia? 🤖
   
-    🎉 Nós estamos construindo isso agora! Mas para co
+    🎉 Nós estamos construindo isso agora! Mas para continuar precisamos de sua ajuda.
+      
+    👉 Cada doação é importante e ajuda a manter e aprimorar o 
