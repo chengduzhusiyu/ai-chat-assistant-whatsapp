@@ -23,4 +23,9 @@ function getDonationMessage(): string {
       
     👉 Cada doação é importante e ajuda a manter e aprimorar o projeto. Use a chave PIX abaixo para fazer uma doação agora mesmo e faça parte da nossa missão de tornar IA's acessíveis para todos.
   
-    🚀 Sua contribuição fará uma grande diferença para nós e para a comunidade. Obrig
+    🚀 Sua contribuição fará uma grande diferença para nós e para a comunidade. Obrigado pela sua generosidade! 😊
+  
+    🙏 Basta enviar a mensagem doar ou /doar🙏 `;
+}
+
+function getThankYouMessage(): s
