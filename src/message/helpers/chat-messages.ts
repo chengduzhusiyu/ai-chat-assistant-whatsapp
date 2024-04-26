@@ -28,4 +28,10 @@ function getDonationMessage(): string {
     🙏 Basta enviar a mensagem doar ou /doar🙏 `;
 }
 
-function getThankYouMessage(): s
+function getThankYouMessage(): string {
+  return `
+    🥳🥳 Muitooo obrigado 🥳🥳
+      
+    PIX Numero: (51)9 9780-5917
+  
+    Sua contri
