@@ -43,4 +43,5 @@ function getClearChatSuccessMessage(): string {
   return `Histórico limpo com sucesso, como posso te ajudar hoje? `;
 }
 
-function getHelperSuporterMessage():
+function getHelperSuporterMessage(): string {
+  return `Para suporte humanizado, entre em contato através dos seguintes números durante
