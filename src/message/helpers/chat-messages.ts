@@ -39,4 +39,8 @@ function getThankYouMessage(): string {
         `;
 }
 
-function getClearChatSuccessMessage():
+function getClearChatSuccessMessage(): string {
+  return `Histórico limpo com sucesso, como posso te ajudar hoje? `;
+}
+
+function getHelperSuporterMessage():
