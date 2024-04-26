@@ -34,4 +34,9 @@ function getThankYouMessage(): string {
       
     PIX Numero: (51)9 9780-5917
   
-    Sua contri
+    Sua contribuição é essencial
+    para mantermos o projeto!
+        `;
+}
+
+function getClearChatSuccessMessage():
