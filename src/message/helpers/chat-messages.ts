@@ -48,3 +48,9 @@ function getHelperSuporterMessage(): string {
 
   📞 +55 64 9 8123-0208 - Falar com Gustavo
   📞 +55 51 9 9780-5917 - Falar com Leonardo
+  
+  Por favor, observe que o suporte está disponível somente durante o horário comercial.`;
+}
+
+export {
+  getDonationMes
