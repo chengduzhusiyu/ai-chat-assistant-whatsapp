@@ -53,4 +53,9 @@ function getHelperSuporterMessage(): string {
 }
 
 export {
-  getDonationMes
+  getDonationMessage,
+  getHelpMessage,
+  getThankYouMessage,
+  getClearChatSuccessMessage,
+  getHelperSuporterMessage,
+};
