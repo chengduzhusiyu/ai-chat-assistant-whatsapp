@@ -7,3 +7,5 @@ Por favor tente novamente!`;
 function getServiceUnavailableError() {
   return 'Serviço indisponível no momento. Por favor, tente novamente mais tarde.';
 }
+
+export { getCannotGenerateImageError, getServiceUnavailableError };
