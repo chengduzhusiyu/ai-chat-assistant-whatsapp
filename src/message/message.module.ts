@@ -16,4 +16,7 @@ import { RouterService } from './router/router.service';
   ],
 })
 export class MessageModule {
-  constructor(
+  constructor(public routerService: RouterService) {
+    this.routerService.initialize();
+  }
+}
