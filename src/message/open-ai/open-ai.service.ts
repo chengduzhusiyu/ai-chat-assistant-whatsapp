@@ -6,4 +6,7 @@ export class OpenAiService {
   private openAI: OpenAIApi;
 
   constructor() {
-    this.configuration 
+    this.configuration = new Configuration({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+    this.openAI = new Ope
