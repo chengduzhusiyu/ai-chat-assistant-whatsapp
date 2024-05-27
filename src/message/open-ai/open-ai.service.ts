@@ -9,4 +9,9 @@ export class OpenAiService {
     this.configuration = new Configuration({
       apiKey: process.env.OPENAI_API_KEY,
     });
-    this.openAI = new Ope
+    this.openAI = new OpenAIApi(this.configuration);
+  }
+
+  async createChatCompletition(
+    user: string,
+    context: ChatCompletionReq
