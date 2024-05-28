@@ -14,4 +14,8 @@ export class OpenAiService {
 
   async createChatCompletition(
     user: string,
-    context: ChatCompletionReq
+    context: ChatCompletionRequestMessage[],
+    content: string,
+  ) {
+    context.push({ role: 'user', content });
+ 
