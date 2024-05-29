@@ -18,4 +18,6 @@ export class OpenAiService {
     content: string,
   ) {
     context.push({ role: 'user', content });
- 
+    try {
+      const response = await this.openAI.createChatCompletion({
+        model: 'gpt-3.5-turb
