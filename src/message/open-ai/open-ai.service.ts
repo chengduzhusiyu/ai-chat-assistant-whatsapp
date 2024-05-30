@@ -24,4 +24,8 @@ export class OpenAiService {
         user,
         messages: context,
       });
-      const GPTResponse = response.data.
+      const GPTResponse = response.data.choices[0].message.content;
+      console.log(GPTResponse);
+      return GPTResponse;
+    } catch (e) {
+     
