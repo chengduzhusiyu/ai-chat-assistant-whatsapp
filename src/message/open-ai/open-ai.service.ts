@@ -28,4 +28,6 @@ export class OpenAiService {
       console.log(GPTResponse);
       return GPTResponse;
     } catch (e) {
-     
+      console.log(e);
+      if (e.response.status === 400 || e.response.status === 429) {
+        return e.respo
