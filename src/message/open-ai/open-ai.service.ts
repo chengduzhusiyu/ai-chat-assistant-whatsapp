@@ -39,4 +39,7 @@ export class OpenAiService {
 
   async createImage(prompt: string) {
     try {
-      con
+      const response = await this.openAI.createImage({
+        prompt,
+        n: 1,
+        size: '1024
