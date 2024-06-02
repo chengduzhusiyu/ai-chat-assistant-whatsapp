@@ -42,4 +42,8 @@ export class OpenAiService {
       const response = await this.openAI.createImage({
         prompt,
         n: 1,
-        size: '1024
+        size: '1024x1024',
+      });
+      const imgURL = response.data.data[0].url;
+      return imgURL;
+    } catch (
