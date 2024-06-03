@@ -46,4 +46,8 @@ export class OpenAiService {
       });
       const imgURL = response.data.data[0].url;
       return imgURL;
-    } catch (
+    } catch (e) {
+      return e.response.status;
+    }
+  }
+}
