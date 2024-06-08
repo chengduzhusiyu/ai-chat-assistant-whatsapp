@@ -4,4 +4,8 @@ import { MessageService } from '../message.service';
 import { Client, LocalAuth, MessageMedia } from 'whatsapp-web.js';
 import * as qrcode from 'qrcode';
 import { ReplyMessageDto } from '../dto/reply-message.dto';
-import { get
+import { getCannotGenerateImageError } from '../helpers/error-messages';
+
+@Injectable()
+export class RouterService {
+  client:
