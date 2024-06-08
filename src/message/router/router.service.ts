@@ -2,3 +2,6 @@
 import { Injectable } from '@nestjs/common';
 import { MessageService } from '../message.service';
 import { Client, LocalAuth, MessageMedia } from 'whatsapp-web.js';
+import * as qrcode from 'qrcode';
+import { ReplyMessageDto } from '../dto/reply-message.dto';
+import { get
