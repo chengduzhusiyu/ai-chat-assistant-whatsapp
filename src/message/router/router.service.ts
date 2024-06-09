@@ -8,4 +8,7 @@ import { getCannotGenerateImageError } from '../helpers/error-messages';
 
 @Injectable()
 export class RouterService {
-  client:
+  client: Client;
+  commands: Map<string, Function>;
+
+  constructor(private readonly messageService: Me
