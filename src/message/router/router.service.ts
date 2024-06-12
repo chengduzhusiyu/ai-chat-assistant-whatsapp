@@ -13,4 +13,8 @@ export class RouterService {
 
   constructor(private readonly messageService: MessageService) {
     this.client = new Client({
-      authStrategy: new LocalAuth({ clientId: 'zara
+      authStrategy: new LocalAuth({ clientId: 'zara-bot' }),
+      puppeteer: {
+        headless: true,
+        args: ['--no-sandbox'],
+    
