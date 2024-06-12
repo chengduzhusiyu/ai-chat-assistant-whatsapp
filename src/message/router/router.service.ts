@@ -11,4 +11,6 @@ export class RouterService {
   client: Client;
   commands: Map<string, Function>;
 
-  constructor(private readonly messageService: Me
+  constructor(private readonly messageService: MessageService) {
+    this.client = new Client({
+      authStrategy: new LocalAuth({ clientId: 'zara
