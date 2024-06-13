@@ -17,4 +17,8 @@ export class RouterService {
       puppeteer: {
         headless: true,
         args: ['--no-sandbox'],
-    
+      },
+    });
+
+    this.commands = new Map<string, Function>();
+    this.commands.set('/imagine', this.hand
