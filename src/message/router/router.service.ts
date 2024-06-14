@@ -21,4 +21,5 @@ export class RouterService {
     });
 
     this.commands = new Map<string, Function>();
-    this.commands.set('/imagine', this.hand
+    this.commands.set('/imagine', this.handleImagineCommand.bind(this));
+    this.commands.set('/clear', this.handleClearCommand.bind(this
