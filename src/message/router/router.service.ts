@@ -27,4 +27,6 @@ export class RouterService {
     this.commands.set('/doar', this.handleDonateCommand.bind(this));
     this.commands.set('/donate', this.handleDonateCommand.bind(this));
     this.commands.set('doar', this.handleDonateCommand.bind(this));
-    this.commands.set('/help', this.handleHelpCommand.b
+    this.commands.set('/help', this.handleHelpCommand.bind(this));
+    this.commands.set('ajuda', this.handleHelpCommand.bind(this));
+    this.com
