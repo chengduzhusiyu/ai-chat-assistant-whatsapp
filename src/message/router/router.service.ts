@@ -33,4 +33,8 @@ export class RouterService {
   }
 
   initialize(): void {
-    this.client.on('q
+    this.client.on('qr', (qr) => {
+      console.log('QR Generated');
+      qrcode.toString(
+        qr,
+        { typ
