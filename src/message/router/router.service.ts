@@ -37,4 +37,7 @@ export class RouterService {
       console.log('QR Generated');
       qrcode.toString(
         qr,
-        { typ
+        { type: 'terminal', small: true },
+        function (err, url) {
+          if (err) throw err;
+          cons
