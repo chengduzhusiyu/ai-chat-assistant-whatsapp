@@ -40,4 +40,10 @@ export class RouterService {
         { type: 'terminal', small: true },
         function (err, url) {
           if (err) throw err;
-          cons
+          console.log(url);
+        },
+      );
+    });
+
+    this.client.on('ready', () => {
+      console.log('Server is running
