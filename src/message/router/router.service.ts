@@ -46,4 +46,8 @@ export class RouterService {
     });
 
     this.client.on('ready', () => {
-      console.log('Server is running
+      console.log('Server is running!');
+    });
+
+    this.client.on('message', async (msg) => {
+      const command = msg.body.toLowerCase().sp
