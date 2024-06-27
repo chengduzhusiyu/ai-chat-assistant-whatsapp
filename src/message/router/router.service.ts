@@ -52,4 +52,9 @@ export class RouterService {
     this.client.on('message', async (msg) => {
       const command = msg.body.toLowerCase().split(' ')[0];
       const to = msg.from;
-      const isGroupMessage = msg.from.split('@')[1] === 'g.us
+      const isGroupMessage = msg.from.split('@')[1] === 'g.us';
+
+      const handler = this.commands.get(command);
+      if (handler) {
+        return await handler(msg, to);
+      }
