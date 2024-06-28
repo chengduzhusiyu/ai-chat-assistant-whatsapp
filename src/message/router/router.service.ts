@@ -58,3 +58,9 @@ export class RouterService {
       if (handler) {
         return await handler(msg, to);
       }
+
+      if (isGroupMessage && command !== 'zara') {
+        return;
+      }
+
+      const response = awai
