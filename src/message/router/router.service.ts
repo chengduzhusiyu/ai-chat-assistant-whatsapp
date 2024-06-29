@@ -63,4 +63,8 @@ export class RouterService {
         return;
       }
 
-      const response = awai
+      const response = await this.messageService.createMessage({
+        from: msg.from,
+        body: msg.body,
+      });
+      tr
