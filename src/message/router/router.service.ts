@@ -67,4 +67,7 @@ export class RouterService {
         from: msg.from,
         body: msg.body,
       });
-      tr
+      try {
+        if (response.length > 1400) {
+          const chunks = response.match(/.{1,1400}/g);
+          chu
