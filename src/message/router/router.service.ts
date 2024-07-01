@@ -70,4 +70,7 @@ export class RouterService {
       try {
         if (response.length > 1400) {
           const chunks = response.match(/.{1,1400}/g);
-          chu
+          chunks.forEach(async (chunk: string) => {
+            await this.reply({
+              to,
+              
