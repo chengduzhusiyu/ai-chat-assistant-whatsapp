@@ -73,4 +73,9 @@ export class RouterService {
           chunks.forEach(async (chunk: string) => {
             await this.reply({
               to,
-              
+              body: chunk,
+            });
+          });
+        } else {
+          await this.reply({
+          
