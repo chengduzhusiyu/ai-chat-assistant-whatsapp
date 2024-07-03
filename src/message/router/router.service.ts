@@ -78,4 +78,10 @@ export class RouterService {
           });
         } else {
           await this.reply({
-          
+            to,
+            body: response,
+          });
+        }
+      } catch (e) {
+        console.log(e);
+      }
