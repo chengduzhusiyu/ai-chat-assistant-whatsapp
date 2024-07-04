@@ -91,4 +91,10 @@ export class RouterService {
   }
 
   async reply(replyMessageDto: ReplyMessageDto) {
-   
+    return await this.client.sendMessage(
+      replyMessageDto.to,
+      replyMessageDto.body,
+    );
+  }
+
+  async replyImage
