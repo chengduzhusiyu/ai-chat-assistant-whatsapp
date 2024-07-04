@@ -85,3 +85,10 @@ export class RouterService {
       } catch (e) {
         console.log(e);
       }
+    });
+
+    this.client.initialize();
+  }
+
+  async reply(replyMessageDto: ReplyMessageDto) {
+   
