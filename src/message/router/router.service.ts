@@ -97,4 +97,5 @@ export class RouterService {
     );
   }
 
-  async replyImage
+  async replyImage(replyMessageDto: ReplyMessageDto) {
+    const media = await MessageMedia.fromUrl(replyM
