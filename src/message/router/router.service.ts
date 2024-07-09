@@ -103,4 +103,6 @@ export class RouterService {
     return await this.client.sendMessage(replyMessageDto.to, media);
   }
 
-  async handleI
+  async handleImagineCommand(msg, to) {
+    const createdImage = await this.messageService.createImage(msg.body);
+    if (create
