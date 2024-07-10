@@ -105,4 +105,8 @@ export class RouterService {
 
   async handleImagineCommand(msg, to) {
     const createdImage = await this.messageService.createImage(msg.body);
-    if (create
+    if (createdImage === 400) {
+      return await this.reply({
+        to,
+        body: getCannotGenerateImageError(),
+      
