@@ -109,4 +109,10 @@ export class RouterService {
       return await this.reply({
         to,
         body: getCannotGenerateImageError(),
-      
+      });
+    }
+    return await this.replyImage({
+      to,
+      body: createdImage,
+    });
+  }
