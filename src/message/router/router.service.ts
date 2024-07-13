@@ -116,3 +116,7 @@ export class RouterService {
       body: createdImage,
     });
   }
+
+  async handleClearCommand(msg, to) {
+    return await this.reply({
+      body: await this.messag
