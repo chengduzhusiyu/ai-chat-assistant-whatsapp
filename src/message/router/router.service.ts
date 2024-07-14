@@ -125,4 +125,8 @@ export class RouterService {
   }
 
   async handleDonateCommand(msg, to) {
-   
+    return await this.reply({
+      to,
+      body: await this.messageService.donationMessage(),
+    });
+  
