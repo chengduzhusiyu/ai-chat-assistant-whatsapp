@@ -119,4 +119,10 @@ export class RouterService {
 
   async handleClearCommand(msg, to) {
     return await this.reply({
-      body: await this.messag
+      body: await this.messageService.clearMessageHistory(msg.from),
+      to: msg.from,
+    });
+  }
+
+  async handleDonateCommand(msg, to) {
+   
