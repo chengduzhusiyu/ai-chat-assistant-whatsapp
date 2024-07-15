@@ -129,4 +129,9 @@ export class RouterService {
       to,
       body: await this.messageService.donationMessage(),
     });
-  
+  }
+
+  async handleHelpCommand(msg, to) {
+    return await this.reply({
+      to,
+      body: await this.messag
