@@ -139,4 +139,9 @@ export class RouterService {
   }
 
   async handleSuporterHelperCommand(msg, to) {
-    return await thi
+    return await this.reply({
+      to,
+      body: await this.messageService.HelperSuporterMessage(),
+    });
+  }
+}
