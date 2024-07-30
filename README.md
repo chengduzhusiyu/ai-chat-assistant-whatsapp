@@ -5,4 +5,6 @@ This is a personal project that utilizes the whatsapp-web.js library and the GPT
 ## 🛠️ Technologies Used
 The bot was developed using the following technologies:
 
--   NestJS - Provides a scalable architecture fo
+-   NestJS - Provides a scalable architecture for server app development.
+-   Prisma - ORM that makes database interactions easier.
+-   PostgreSQL - O
