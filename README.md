@@ -10,4 +10,8 @@ The bot was developed using the following technologies:
 -   PostgreSQL - Open source relational database.
 -   OpenAI API - API for natural language processing and artificial intelligence.
 -   TypeScript - A JavaScript superset that adds static typing to the language.
--   Fastify - Used
+-   Fastify - Used as an adapter with NestJS focusing on performance and scalability.
+
+### 🚀Features
+
+-   Conversation utilizing the power 
