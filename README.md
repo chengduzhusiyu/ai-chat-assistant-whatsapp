@@ -15,4 +15,6 @@ The bot was developed using the following technologies:
 ### 🚀Features
 
 -   Conversation utilizing the power of ChatGPT by just sending messages through WhatsApp.
--   Image generation using the command `/im
+-   Image generation using the command `/imagine your prompt`.
+-   Clear the message history from the database using the command `/clear`.
+-   Get help on
