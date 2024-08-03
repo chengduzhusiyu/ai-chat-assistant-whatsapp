@@ -17,4 +17,7 @@ The bot was developed using the following technologies:
 -   Conversation utilizing the power of ChatGPT by just sending messages through WhatsApp.
 -   Image generation using the command `/imagine your prompt`.
 -   Clear the message history from the database using the command `/clear`.
--   Get help on
+-   Get help on available commands using the command `/help`.
+
+See the image below as an example:
+[![Exampl
