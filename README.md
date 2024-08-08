@@ -24,4 +24,6 @@ See the image below as an example:
 
 ###  🧪How To Use?
 
-To begin us
+To begin using the BOT, follow these steps:
+
+1.  Send a text message to the whatsapp number +55 (88) 98147-8937 or [click h
