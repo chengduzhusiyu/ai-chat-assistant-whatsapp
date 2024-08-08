@@ -20,4 +20,8 @@ The bot was developed using the following technologies:
 -   Get help on available commands using the command `/help`.
 
 See the image below as an example:
-[![Exampl
+[![Example image](https://i.postimg.cc/RVqv61bP/image.png)](https://postimg.cc/Tp8zBbxm)
+
+###  🧪How To Use?
+
+To begin us
