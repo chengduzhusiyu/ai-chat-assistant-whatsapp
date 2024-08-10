@@ -26,4 +26,7 @@ See the image below as an example:
 
 To begin using the BOT, follow these steps:
 
-1.  Send a text message to the whatsapp number +55 (88) 98147-8937 or [click h
+1.  Send a text message to the whatsapp number +55 (88) 98147-8937 or [click here](https://wa.me/558881478937?text=Hello).
+    
+
+2. The message will be forwarded to the ChatGPT API for an automatic response. When us
