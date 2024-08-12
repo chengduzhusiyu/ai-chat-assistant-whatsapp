@@ -29,4 +29,4 @@ To begin using the BOT, follow these steps:
 1.  Send a text message to the whatsapp number +55 (88) 98147-8937 or [click here](https://wa.me/558881478937?text=Hello).
     
 
-2. The message will be forwarded to the ChatGPT API for an automatic response. When using the environment, please bear in mind that all sent and received messages are stored in a
+2. The message will be forwarded to the ChatGPT API for an automatic response. When using the environment, please bear in mind that all sent and received messages are stored in a database. These messages will be kept until the `/clear` command is executed to clear the hist
