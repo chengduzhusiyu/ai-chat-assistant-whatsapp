@@ -31,4 +31,4 @@ To begin using the BOT, follow these steps:
 
 2. The message will be forwarded to the ChatGPT API for an automatic response. When using the environment, please bear in mind that all sent and received messages are stored in a database. These messages will be kept until the `/clear` command is executed to clear the history.
 
-Additionally, while using the ChatGPT API and Dall-E, keep in mind that the terms of use of [OpenA
+Additionally, while using the ChatGPT API and Dall-E, keep in mind that the terms of use of [OpenAI]([https://beta.openai.com/terms/](https://beta.openai.com/terms/)) also apply. Please ensure to review and agree with 
