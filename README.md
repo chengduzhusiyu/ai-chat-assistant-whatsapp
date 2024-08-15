@@ -35,4 +35,6 @@ Additionally, while using the ChatGPT API and Dall-E, keep in mind that the term
 
 ### 🛠️Installation and Configuration
 
-To install and configure the API, follow the 
+To install and configure the API, follow the steps below:
+
+1.  Create an account on OpenAI and grab your credentials. Create the `.env
