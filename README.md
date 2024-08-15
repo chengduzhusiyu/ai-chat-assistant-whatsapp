@@ -37,4 +37,7 @@ Additionally, while using the ChatGPT API and Dall-E, keep in mind that the term
 
 To install and configure the API, follow the steps below:
 
-1.  Create an account on OpenAI and grab your credentials. Create the `.env
+1.  Create an account on OpenAI and grab your credentials. Create the `.env` file. The `.env.example` file is in the root of the project. See example below:
+
+```
+OPENAI_API_KE
