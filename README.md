@@ -45,4 +45,6 @@ DATABASE_URL=
 BOT_PERSONA="Bot Persona"
 ```
 
-The `DATABASE_URL` field must be fille
+The `DATABASE_URL` field must be filled with your database URL. By default, it is configured to use PostgreSQL.
+
+2.  Install the project d
