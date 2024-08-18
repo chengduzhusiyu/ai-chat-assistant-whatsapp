@@ -47,4 +47,10 @@ BOT_PERSONA="Bot Persona"
 
 The `DATABASE_URL` field must be filled with your database URL. By default, it is configured to use PostgreSQL.
 
-2.  Install the project d
+2.  Install the project dependencies with the following command:
+
+```bash
+npm install
+```
+
+3.  Start the API on localhost with the command:
