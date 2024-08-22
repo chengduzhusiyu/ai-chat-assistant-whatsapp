@@ -54,3 +54,9 @@ npm install
 ```
 
 3.  Start the API on localhost with the command:
+
+```bash
+npm run start:dev
+```
+
+4. Wait for the QR Code to appear in the Terminal, on your mobile Whatsapp go to
