@@ -59,4 +59,6 @@ npm install
 npm run start:dev
 ```
 
-4. Wait for the QR Code to appear in the Terminal, on your mobile Whatsapp go to
+4. Wait for the QR Code to appear in the Terminal, on your mobile Whatsapp go to "Connected Devices" and scan the QR Code Generated.
+
+5. Now, just send a message to your number and wait for the response.
